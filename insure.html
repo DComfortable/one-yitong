@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Best Insure 最棒保险</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Best Insure 最棒保险</h1>
+    <div style="float:left;">
+      <!-- Admin Login -->
+      <form>
+        <label>Admin Login (管理员登录)</label><br>
+        Username (NRIC): <input type="text" name="username"><br>
+        Password: <input type="password" name="password"><br>
+        <button type="submit">Login</button>
+        <button type="button">Reset Password</button>
+      </form>
+    </div>
+    <div style="float:right;">
+      <!-- Customer Login -->
+      <form>
+        <label>Customer Login (客户登录)</label><br>
+        Username: <input type="text" name="custuser"><br>
+        Password: <input type="password" name="custpass"><br>
+        <button type="submit">Login</button>
+      </form>
+      <p>Access without account is allowed (无需注册即可访问)</p>
+    </div>
+    <div style="clear:both;"></div>
+  </header>
+
+  <main>
+    <h2>Main Options 主选项</h2>
+    <div class="grid">
+      <a class="option" href="#sg"><img src="images/singapore.png" alt="Singapore">Singaporean / Going Abroad<br>新加坡人 / 出国</a>
+      <a class="option" href="#intl"><img src="images/international.png" alt="International">International Users<br>国际用户</a>
+    </div>
+
+    <h2>Insurance Categories 保险类别</h2>
+    <div class="grid">
+      <div class="option"><img src="images/life.png" alt="Life">Life Insurance<br>人寿保险</div>
+      <div class="option"><img src="images/health.png" alt="Health">Health Insurance<br>健康保险</div>
+      <div class="option"><img src="images/retirement.png" alt="Retirement">Retirement Plans<br>退休计划</div>
+      <div class="option"><img src="images/education.png" alt="Education">Education Savings<br>教育储蓄</div>
+      <div class="option"><img src="images/investment.png" alt="Investment">Investment-Linked Policies<br>投资连结保单</div>
+      <div class="option"><img src="images/wealth.png" alt="Wealth">Wealth Management Solutions<br>财富管理方案</div>
+    </div>
+
+    <h2>Document Upload 文件上传</h2>
+    <form>
+      <input type="file" accept=".pdf,.jpg,.jpeg,.png">
+      <button type="submit">Upload & Sign</button>
+    </form>
+    <p>Signed copies will be emailed to both parties (签署副本将通过电子邮件发送给双方).</p>
+
+    <h2>Renewal Reminders 续约提醒</h2>
+    <form>
+      Admin Reminder: <input type="date"><br>
+      Customer Reminder: <input type="date"><br>
+      <button type="submit">Set Reminder</button>
+    </form>
+
+    <h2>Optional Monthly Meetup 每月聚会</h2>
+    <p>Label: Roadshow / Public Resting Area (路演 / 公共休息区)</p>
+    <form>
+      Date: <input type="date"><br>
+      Time: <input type="time"><br>
+      Duration: <input type="text" placeholder="e.g. 2 hours"><br>
+      <button type="submit">Upload Schedule</button>
+    </form>
+  </main>
+
+  <nav>
+    <a href="index.html">Back to Main Menu 返回主菜单</a>
+    <a href="index.html">Choose Other Options 选择其他选项</a>
+  </nav>
+</body>
+</html>
